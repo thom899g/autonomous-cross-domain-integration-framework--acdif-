@@ -1,0 +1,33 @@
+# Autonomous Cross-Domain Integration Framework (ACDIF)
+
+## Overview
+ACDIF enables emergent intelligence through structured autonomy by enforcing a single constraint: **Every module communicates exclusively through typed, versioned capability manifests**. This framework creates a seamless integration layer for AI ecosystems, allowing autonomous research and deployment without human intervention.
+
+## Core Components
+
+1. **Capability Manifest System** (`manifest.py`)
+   - Machine-verifiable, human-readable manifests using Pydantic validation
+   - Semantic versioning with strict compatibility rules
+   - Capability taxonomy with input/output schemas
+
+2. **Decentralized Registry** (`registry.py`)
+   - Firebase Firestore backend for global coordination
+   - Real-time manifest publishing and discovery
+   - Version control with automatic conflict detection
+
+3. **Integration Engine** (`engine.py`)
+   - Progressive disclosure of complexity
+   - Capability matching and adaptation pipelines
+   - Observability-first design with comprehensive logging
+
+4. **Conflict Resolution** (`conflict_resolver.py`)
+   - Multi-strategy conflict resolution (merge, override, compose)
+   - Priority-based decision making
+   - Automated fallback mechanisms
+
+5. **Adaptive Resolver** (`resolver.py`)
+   - Machine learning-powered capability matching
+   - Similarity scoring with confidence thresholds
+   - Automatic adaptation path generation
+
+## Installation
