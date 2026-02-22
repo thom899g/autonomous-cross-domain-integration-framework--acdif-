@@ -1,0 +1,12 @@
+## Architecture Principles
+- **Manifest-First Design**: Integration begins with static declaration
+- **Progressive Disclosure**: Complexity emerges only when needed
+- **Observability Over Orchestration**: System state is fully observable, minimally controlled
+- **Failure as First-Class Citizen**: Every integration path handles failure gracefully
+
+## Error Handling
+All components implement:
+- Automatic retry with exponential backoff
+- Graceful degradation
+- Comprehensive error logging
+- Fallback strategies for critical failures
