@@ -1,0 +1,6 @@
+## Configuration
+1. Set up Firebase project and download service account key
+2. Configure environment variables (see `.env.example`)
+3. Initialize modules with capability manifests
+
+## Usage Example
